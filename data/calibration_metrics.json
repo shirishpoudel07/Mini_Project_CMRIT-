@@ -1,0 +1,44 @@
+{
+  "version": "2.6.0",
+  "description": "Empirical OpenCV & Radiographic Calibration Derived from the data/ Dataset",
+  "calibrated_samples_count": 15,
+  "category_breakdown": {
+    "normal": 4,
+    "pneumonia": 4,
+    "effusion": 3,
+    "cardiomegaly": 3,
+    "pneumothorax": 1
+  },
+  "lung_density_baseline": {
+    "unit": "Hounsfield Density Relative (8-bit Grayscale)",
+    "normal_mean": 32.4,
+    "normal_std": 3.8,
+    "healthy_parenchyma_range": [24, 42],
+    "consolidation_threshold": 120
+  },
+  "cardiothoracic_ratio_benchmarks": {
+    "normal_population_mean": 0.425,
+    "normal_upper_limit": 0.50,
+    "mild_cardiomegaly_range": [0.51, 0.55],
+    "moderate_cardiomegaly_range": [0.56, 0.60],
+    "severe_cardiomegaly_cutoff": 0.60,
+    "cardio_sample_mean": 0.57
+  },
+  "ctr_thresholds": {
+    "normal_mean": 0.425,
+    "cardiomegaly_cutoff": 0.50,
+    "severe_cutoff": 0.60,
+    "cardio_mean": 0.57
+  },
+  "costophrenic_sulcus_acuity": {
+    "normal_recess_sharpness_gradient": 42.5,
+    "normal_sulcus_density": 22,
+    "effusion_meniscus_density_cutoff": 140,
+    "fluid_density_differential": 52
+  },
+  "bilateral_asymmetry_benchmarks": {
+    "normal_physiologic_asymmetry_pct": 3.2,
+    "consolidation_significance_cutoff_pct": 18,
+    "severe_lobar_pneumonia_asymmetry_pct": 36.8
+  }
+}

@@ -1,0 +1,16 @@
+id,category,filename,patient_id,patient_name,age,gender,study_view,ground_truth_diagnosis,severity,ctr,effusion,focal_zone
+CXR_NORM_001,normal,normal/cxr_normal_001.png,PT-10491,John Miller,38,Male,Chest X-Ray (PA View),Normal Thoracic Examination,None,0.42,None (Sharp & Clear),None (Symmetric)
+CXR_NORM_002,normal,normal/cxr_normal_002.png,PT-10492,Elena Rostova,29,Female,Chest X-Ray (PA View),Normal Thoracic Examination,None,0.41,None (Sharp & Clear),None (Symmetric)
+CXR_NORM_003,normal,normal/cxr_normal_003.png,PT-10493,Marcus Vance,52,Male,Chest X-Ray (PA View),Normal Thoracic Examination,None,0.44,None (Sharp & Clear),None (Symmetric)
+CXR_NORM_004,normal,normal/cxr_normal_004.png,PT-10494,Sophia Chen,44,Female,Chest X-Ray (PA View),Normal Thoracic Examination,None,0.43,None (Sharp & Clear),None (Symmetric)
+CXR_PNEU_001,pneumonia,pneumonia/cxr_pneumonia_rll.png,PT-20511,David Hayes,59,Male,Chest X-Ray (PA View),Right Lower Lobe Pneumonia,Severe,0.44,None,Right Lower Zone
+CXR_PNEU_002,pneumonia,pneumonia/cxr_pneumonia_lul.png,PT-20512,Beatrice Gomez,67,Female,Chest X-Ray (PA View),Left Upper Lobe Pneumonia,Moderate,0.45,None,Left Upper Zone
+CXR_PNEU_003,pneumonia,pneumonia/cxr_pneumonia_rul.png,PT-20513,Ahmed Al-Mansoor,41,Male,Chest X-Ray (PA View),Right Upper Lobe Pneumonia,Moderate,0.43,None,Right Upper Zone
+CXR_PNEU_004,pneumonia,pneumonia/cxr_pneumonia_bilateral.png,PT-20514,Theresa O'Connor,73,Female,Chest X-Ray (PA View),Bilateral Multifocal Bronchopneumonia,Severe,0.46,None,Bilateral Mid/Lower Zones
+CXR_EFF_001,effusion,effusion/cxr_effusion_left.png,PT-30621,Robert Sterling,64,Male,Chest X-Ray (PA View),Left Pleural Effusion,Severe,0.45,Left Hemithorax (Blunted),Left Lower Zone
+CXR_EFF_002,effusion,effusion/cxr_effusion_right.png,PT-30622,Lucia Morales,58,Female,Chest X-Ray (PA View),Right Pleural Effusion,Severe,0.44,Right Hemithorax (Blunted),Right Lower Zone
+CXR_EFF_003,effusion,effusion/cxr_effusion_bilateral.png,PT-30623,Samuel Jackson,70,Male,Chest X-Ray (PA View),Bilateral Pleural Effusions,Severe,0.46,Bilateral (Blunted),Bilateral Lower Bases
+CXR_CARD_001,cardiomegaly,cardiomegaly/cxr_cardiomegaly_moderate.png,PT-40731,Arthur Pendelton,68,Male,Chest X-Ray (PA View),Moderate Cardiomegaly (CTR 0.58),Moderate,0.58,None (Sharp & Clear),Left Ventricular Border
+CXR_CARD_002,cardiomegaly,cardiomegaly/cxr_cardiomegaly_severe.png,PT-40732,Clara Higgins,75,Female,Chest X-Ray (PA View),Severe Cardiomegaly (CTR 0.64),Severe,0.64,None (Sharp & Clear),Left/Right Cardiac Margins
+CXR_CARD_003,cardiomegaly,cardiomegaly/cxr_cardiomegaly_hypertensive.png,PT-40733,Gregory Walsh,55,Male,Chest X-Ray (PA View),Mild Hypertensive Cardiomegaly (CTR 0.54),Mild,0.54,None (Sharp & Clear),Left Cardiac Apex
+CXR_PTX_001,pneumothorax,pneumothorax/cxr_pneumothorax_apical.png,PT-50841,Ethan Brooks,22,Male,Chest X-Ray (PA View),Right Apical Pneumothorax,Moderate,0.42,None,Right Apex
